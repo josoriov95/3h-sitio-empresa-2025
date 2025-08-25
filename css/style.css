@@ -1,7 +1,15 @@
+/* Globales */
 body{
     margin: 0;
     font-family: Helvetica, sans-serif;
+    background: linear-gradient(45deg,navy,purple);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 100vh;
 }
+/*----- HEADER -----*/
+/* iconos */
 .fa-whatsapp{color:#0ae90a;}
 .fa-instagram{color: #f2059f;}
 .fa-discord{color: #5461eb;}
@@ -10,6 +18,7 @@ body{
     font-size: 24px;
     transition: all .4s ease-in-out;
 }
+/* barra superior del header */
 .header-top{
     display: flex;
     justify-content: space-between;
@@ -25,4 +34,12 @@ body{
 .redes{
     display:flex;
     gap: 14px;
+}
+
+/* barra inferior del header */
+.header-bottom{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
